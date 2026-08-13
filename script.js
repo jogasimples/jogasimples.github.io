@@ -14,14 +14,9 @@ var content_data = {
   },
   "socials": [
     { "name": "YouTube",   "icon": "youtube",   "url": "https://www.youtube.com/@ShangMing?sub_confirmation=1", "color": "#FF0000" },
-    { "name": "Clips",     "icon": "youtube",   "url": "https://www.youtube.com/@VSKI555yt?sub_confirmation=1",   "color": "#FF0000" },
     { "name": "Twitch",    "icon": "twitch",    "url": "https://www.twitch.tv/ShangMingyt",                    "color": "#9146FF" },
     { "name": "Instagram", "icon": "instagram", "url": "https://www.instagram.com/ShangMing",                  "color": "#E1306C" },
-    { "name": "Discord",   "icon": "discord",   "url": "https://discord.gg/shangming",                            "color": "#5865F2" },
-    { "name": "OffSet",    "icon": "discord",   "url": "https://discord.gg/offsetrp",                             "color": "#5865F2" },
-    { "name": "TikTok",    "icon": "tiktok",    "url": "https://www.tiktok.com/@ShangMingyt",                  "color": "#00F2EA" },
-    { "name": "Twitter",   "icon": "twitter",   "url": "https://x.com/ShangMing",                              "color": "#1DA1F2" },
-    { "name": "Facebook",  "icon": "facebook",  "url": "https://www.facebook.com/ShangMing",                   "color": "#1876D0" }
+    { "name": "TikTok",    "icon": "tiktok",    "url": "https://www.tiktok.com/@ShangMingyt",                  "color": "#00F2EA" }
   ],
   "partners": [
     {
