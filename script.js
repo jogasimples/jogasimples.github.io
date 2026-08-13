@@ -9,14 +9,14 @@ var content_data = {
     "name": "JOGA SIMPLES",
     "avatarText": "TV",
     "avatarImage": "avatar.jpg",
-    "avatarLink": "https://www.instagram.com/ShangMing",
-    "disclaimer": "Este site destina-se apenas a maiores de 18 anos. Todo o conteúdo apresentado, incluindo giveaways, parcerias e códigos, destina-se exclusivamente a fins de entretenimento. Não incentivo apostas ou qualquer forma de jogo. Joga sempre de forma consciente e responsável."
+    "avatarLink": "https://www.instagram.com/jogasimplespt",
+    "disclaimer": "Treinador de futebol Nivel II (UEFA B) com 10 anos de treino e durante 20 anos como jogador de futebol. Atualmente parceiro da Twitch como criador de conteúdos relacionados com futebol. Entender o processo e as dinâmicas que as equipas apresentam na nossa Liga BWIN. Analisa as equipas, opina sobre o momento e tudo aquilo que está por dentro das quatro linhas."
   },
   "socials": [
-    { "name": "YouTube",   "icon": "youtube",   "url": "https://www.youtube.com/@ShangMing?sub_confirmation=1", "color": "#FF0000" },
-    { "name": "Twitch",    "icon": "twitch",    "url": "https://www.twitch.tv/ShangMingyt",                    "color": "#9146FF" },
-    { "name": "Instagram", "icon": "instagram", "url": "https://www.instagram.com/ShangMing",                  "color": "#E1306C" },
-    { "name": "TikTok",    "icon": "tiktok",    "url": "https://www.tiktok.com/@ShangMingyt",                  "color": "#00F2EA" }
+    { "name": "YouTube",   "icon": "youtube",   "url": "https://www.youtube.com/jogasimples", "color": "#FF0000" },
+    { "name": "Twitch",    "icon": "twitch",    "url": "https://www.twitch.tv/jogasimples",                    "color": "#9146FF" },
+    { "name": "Instagram", "icon": "instagram", "url": "https://www.instagram.com/jogasimplespt",                  "color": "#E1306C" },
+    { "name": "TikTok",    "icon": "tiktok",    "url": "https://www.tiktok.com/@jogasimples",                  "color": "#00F2EA" }
   ],
   "partners": [
     {
