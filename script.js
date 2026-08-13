@@ -6,7 +6,7 @@ var content_data = {
     "gridSize": "40px"
   },
   "profile": {
-    "name": "ShangMing",
+    "name": "JOGA SIMPLES",
     "avatarText": "TV",
     "avatarImage": "avatar.jpg",
     "avatarLink": "https://www.instagram.com/ShangMing",
