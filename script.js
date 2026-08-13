@@ -63,28 +63,6 @@ var content_data = {
       "rating": null
     },
     {
-      "name": "Talhos Almerinda",
-      "color": "#E30613",
-      "url": "https://www.talhos-almerinda.pt/",
-      "bullets": [
-        "Talho Nacional",
-        "10% Desconto",
-        "Código VSKI 10% desconto em compras superiores a 70€",
-        "Entregas em 1 dia útil em tua casa!"
-      ],
-      "rating": null
-    },
-    {
-      "name": "Goon Services",
-      "color": "#42BEE4",
-      "url": "https://www.instagram.com/goon__services/",
-      "bullets": [
-        "Limpezas Profissionais",
-        "Manutenção de Piscinas"
-      ],
-      "rating": null
-    },
-    {
       "name": "Villa Feira Clinic",
       "color": "#CBA373",
       "url": "https://villafeiraclinic.pt/",
