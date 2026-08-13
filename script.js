@@ -83,7 +83,7 @@ var content_data = {
     ],
     "disclaimer": "não se responsabiliza por informações incorretas sobre bônus, ofertas ou promoções apresentadas no site. recomenda que os jogadores verifiquem todos os termos e condições de cada bônus listado no site do casino. foi atualizado em:",
     "updatedDate": "01/08/2026",
-    "siteName": "shangming.com",
+    "siteName": "jogasimples.pt",
     "version": "V4.0"
   }
 }
