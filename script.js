@@ -40,17 +40,6 @@ var content_data = {
       "rating": "18+"
     },
     {
-      "name": "PiratesWap",
-      "color": "#FEA235",
-      "url": "/partners/pirateswap",
-      "bullets": [
-        "35% Extra ao Depositar",
-        "Trocar ou Vender Skins",
-        "Trocas Instantâneas"
-      ],
-      "rating": "M18"
-    },
-    {
       "name": "Prozis",
       "color": "#E30613",
       "url": "http://prozis.com/12xJF",
