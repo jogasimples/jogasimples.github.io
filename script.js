@@ -22,7 +22,7 @@ var content_data = {
     {
       "name": "GGDROP",
       "color": "#0CC9FA",
-      "url": "/partners/csgoskins",
+      "url": "https://ggdrop.com/",
       "bullets": [
         "Código JOGA dá 7% extra ao depositar.",
         "Giveaways Exclusivos",
