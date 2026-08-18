@@ -27,7 +27,7 @@ var content_data = {
         "Código JOGA dá 7% extra ao depositar.",
         "Giveaways Exclusivos",
       ],
-      "rating": "M18"
+      "rating": "18+"
     },
     {
       "name": "Solverde",
