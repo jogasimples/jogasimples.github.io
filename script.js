@@ -20,25 +20,22 @@ var content_data = {
   ],
   "partners": [
     {
-      "name": "CSGOSkins",
+      "name": "GGDROP",
       "color": "#0CC9FA",
       "url": "/partners/csgoskins",
       "bullets": [
-        "Código VSKI dá 10% extra ao depositar e 0,50$ grátis.",
+        "Código JOGA dá 7% extra ao depositar.",
         "Giveaways Exclusivos",
-        "0,50$ Grátis com o código"
       ],
       "rating": "M18"
     },
     {
       "name": "Solverde",
       "color": "#00E589",
-      "url": "https://sol-ver.de/e1sGeGW",
+      "url": "https://sol-ver.de/3BUXGSJ",
       "bullets": [
-        "Regista-te com o código VSKI!",
-        "60 jogadas grátis",
-        "Bónus de 100% até 100€ no 1.º depósito",
-        "300% até 30€ em freebets"
+        "Regista-te com o código JSIMPLES",
+        "30€ em free bets na tua 1.ª aposta de 10€.",
       ],
       "rating": "18+"
     },
@@ -56,18 +53,18 @@ var content_data = {
     {
       "name": "Prozis",
       "color": "#E30613",
-      "url": "https://prozis.com/VSKI",
+      "url": "http://prozis.com/12xJF",
       "bullets": [
-        "Usa o código VSKI para 10% desconto e ofertas no check out."
+        "Usa o código JOGA para 10% desconto e ofertas no check out."
       ],
       "rating": null
     },
     {
-      "name": "Villa Feira Clinic",
+      "name": "Capilart",
       "color": "#CBA373",
-      "url": "https://villafeiraclinic.pt/",
+      "url": "https://capilart.pt/",
       "bullets": [
-        "Clínica Dentária",
+        "Soluções Capilares Avançadas",
         "Clínica Médica"
       ],
       "rating": null
