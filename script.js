@@ -49,8 +49,28 @@ var content_data = {
       "rating": null
     },
     {
-      "name": "Capilart",
+      "name": "Academia Apostas",
       "color": "#CBA373",
+      "url": "https://www.academiadasapostas.com/",
+      "bullets": [
+        "Escola para Apostadores",
+        "Acompanhamento em Direto"
+      ],
+      "rating": null
+    },
+     {
+      "name": "Primeiro Toque",
+      "color": "#C9AF70",
+      "url": "https://primeirotoque.pt/",
+      "bullets": [
+        "Podcast Futebol",
+        "Casual para o adepto. Sério para o profissional."
+      ],
+      "rating": null
+    },
+    {
+      "name": "Capilart",
+      "color": "#003A37",
       "url": "https://capilart.pt/",
       "bullets": [
         "Soluções Capilares Avançadas",
