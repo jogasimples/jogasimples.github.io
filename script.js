@@ -79,19 +79,7 @@ var content_data = {
       "rating": null
     }
   ],
-  "footer": {
-    "badge": "Jogo Responsável",
-    "text": "O jogo deve ser encarado como uma atividade de lazer. Se sentir necessidade de apoio, por favor utilize os recursos oficiais de ajuda listados abaixo.",
-    "helpLinks": [
-      { "icon": "phone", "title": "Linha de Ajuda", "subtitle": "IAJ: 800 291 013", "url": "https://www.iaj.pt/linha-ajuda/" },
-      { "icon": "shield", "title": "Jogo Responsável", "subtitle": "Solverde.pt", "url": "https://www.solverde.pt/jogo-responsavel" },
-      { "icon": "heart", "title": "Apoio ICAD", "subtitle": "Linha Vida: 1414", "url": "https://www.icad.pt/ImageContent/Index/21?languageId=0" }
-    ],
-    "disclaimer": "não se responsabiliza por informações incorretas sobre bônus, ofertas ou promoções apresentadas no site. recomenda que os jogadores verifiquem todos os termos e condições de cada bônus listado no site do casino. foi atualizado em:",
-    "updatedDate": "01/08/2026",
-    "siteName": "jogasimples.pt",
-    "version": "V4.0"
-  }
+  
 }
 
 const ICONS = {
