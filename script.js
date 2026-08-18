@@ -50,7 +50,7 @@ var content_data = {
     },
     {
       "name": "Academia Apostas",
-      "color": "#FFFFFF",
+      "color": "#5C5C5C",
       "url": "https://www.academiadasapostas.com/",
       "bullets": [
         "Escola para Apostadores",
