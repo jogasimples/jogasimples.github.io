@@ -8,7 +8,7 @@ var content_data = {
   "profile": {
     "name": "JOGA SIMPLES",
     "avatarText": "TV",
-    "avatarImage": "avatar.jpg",
+    "avatarImage": "avatar2.jpg",
     "avatarLink": "https://www.instagram.com/jogasimplespt",
     "disclaimer": "Treinador de futebol Nivel II (UEFA B) com 10 anos de treino e durante 20 anos como jogador de futebol. Atualmente parceiro da Twitch como criador de conteúdos relacionados com futebol. Entender o processo e as dinâmicas que as equipas apresentam na nossa Liga BWIN. Analisa as equipas, opina sobre o momento e tudo aquilo que está por dentro das quatro linhas."
   },
