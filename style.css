@@ -165,6 +165,12 @@ body {
   margin-top: 1rem;
 }
 
+.partner-logo-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .partner-visit-btn {
   flex: 1;
   padding: 0.75rem 1.5rem;
