@@ -9,7 +9,7 @@ var content_data = {
     "avatarText": "JOGA",
     "avatarImage": "avatar2.png",
     "avatarLink": "https://www.instagram.com/jogasimplespt",
-    "disclaimer": "Treinador de futebol Nível II (UEFA B) com 10 anos de treino e durante 20 anos como jogador de futebol."
+    "disclaimer": "Treinador de futebol Nível II (UEFA B) com 10 anos de treino e durante 20 anos como jogador de futebol. Atualmente parceiro da Twitch como criador de conteúdos relacionados com futebol."
   },
   "socials": [
     { "name": "YouTube",   "icon": "youtube",   "url": "https://www.youtube.com/jogasimples", "color": "#FF0000" },
@@ -81,7 +81,7 @@ var content_data = {
   "footer": {
     "badge": "Jogo Responsável",
     "text": "O jogo deve ser encarado como uma atividade de lazer. Se sentir necessidade de apoio, por favor utilize os recursos oficiais de ajuda listados abaixo.",
-    "disclaimer": "O site não se responsabiliza por informações incorretas sobre bônus, ofertas ou promoções apresentadas no site.",
+    "disclaimer": "O site não se responsabiliza por informações incorretas sobre bônus, ofertas ou promoções apresentadas no site. Recomenda-se verificar todos os termos e condições nas páginas oficiais.",
     "siteName": "jogasimples.pt",
     "version": "1.0",
     "updatedDate": "2026-08-19",
@@ -171,6 +171,17 @@ function renderPartners(partners) {
       nameLink.textContent = p.name || '';
     }
     card.appendChild(nameLink);
+
+    const details = el('div', { class: 'partner-details', id: `partner-details-${i}` });
+    (p.bullets || []).forEach(bullet => {
+      const row = el('div', { class: 'partner-bullet' });
+      const dot = el('div', { class: 'bullet-dot' });
+      dot.style.backgroundColor = p.color || 'transparent';
+      row.appendChild(dot);
+      row.appendChild(el('span', {}, bullet));
+      details.appendChild(row);
+    });
+    card.appendChild(details);
 
     const actions = el('div', { class: 'partner-actions' });
     const visitBtn = el('a', { class: 'partner-visit-btn', href: p.url || '#', target: '_blank', rel: 'noopener noreferrer' }, 'Visitar');
