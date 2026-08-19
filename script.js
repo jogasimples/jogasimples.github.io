@@ -21,7 +21,7 @@ var content_data = {
   "partners": [
     {
       "name": "GGDROP",
-      "image": "https://www.solverde.pt/library/new_layout_assets/Logo.svg?v=1",
+      "image": "",
       "color": "#0CC9FA",
       "url": "https://ggdrop.com/",
       "bullets": [
