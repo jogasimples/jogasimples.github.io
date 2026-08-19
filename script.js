@@ -9,7 +9,7 @@ var content_data = {
     "avatarText": "JOGA",
     "avatarImage": "avatar2.png",
     "avatarLink": "https://www.instagram.com/jogasimplespt",
-    "disclaimer": "Treinador de futebol Nível II (UEFA B) com 10 anos de treino e durante 20 anos como jogador de futebol. Atualmente parceiro da Twitch como criador de conteúdos relacionados com futebol e apostas esportivas."
+    "disclaimer": "Treinador de futebol Nível II (UEFA B) com 10 anos de treino e durante 20 anos como jogador de futebol. Atualmente parceiro da Twitch como criador de conteúdos relacionados co[...]
   },
   "socials": [
     { "name": "YouTube",   "icon": "youtube",   "url": "https://www.youtube.com/jogasimples", "color": "#FF0000" },
@@ -81,7 +81,7 @@ var content_data = {
   "footer": {
     "badge": "Jogo Responsável",
     "text": "O jogo deve ser encarado como uma atividade de lazer. Se sentir necessidade de apoio, por favor utilize os recursos oficiais de ajuda listados abaixo.",
-    "disclaimer": "O site não se responsabiliza por informações incorretas sobre bônus, ofertas ou promoções apresentadas no site. Recomenda-se verificar todos os termos e condições nas páginas oficiais dos anunciantes.",
+    "disclaimer": "O site não se responsabiliza por informações incorretas sobre bônus, ofertas ou promoções apresentadas no site. Recomenda-se verificar todos os termos e condições nas p[...]
     "siteName": "jogasimples.pt",
     "version": "1.0",
     "updatedDate": "2026-08-19",
@@ -173,29 +173,11 @@ function renderPartners(partners) {
     card.appendChild(nameLink);
 
     const actions = el('div', { class: 'partner-actions' });
-    const infoBtn = el('button', { class: 'partner-info-btn', type: 'button' }, '<span class="chevron">▾</span> Info');
     const visitBtn = el('a', { class: 'partner-visit-btn', href: p.url || '#', target: '_blank', rel: 'noopener noreferrer' }, 'Visitar');
     visitBtn.style.backgroundColor = p.color || 'transparent';
     visitBtn.style.boxShadow = `0 4px 20px -4px ${p.color || '#000'}66`;
-    actions.appendChild(infoBtn);
     actions.appendChild(visitBtn);
     card.appendChild(actions);
-
-    const details = el('div', { class: 'partner-details', id: `partner-details-${i}` });
-    (p.bullets || []).forEach(bullet => {
-      const row = el('div', { class: 'partner-bullet' });
-      const dot = el('div', { class: 'bullet-dot' });
-      dot.style.backgroundColor = p.color || 'transparent';
-      row.appendChild(dot);
-      row.appendChild(el('span', {}, bullet));
-      details.appendChild(row);
-    });
-    card.appendChild(details);
-
-    infoBtn.addEventListener('click', () => {
-      details.classList.toggle('open');
-      infoBtn.classList.toggle('open');
-    });
 
     if (p.rating) {
       const rating = el('div', { class: 'partner-rating' }, `<span>${p.rating}</span>`);
