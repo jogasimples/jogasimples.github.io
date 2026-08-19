@@ -21,6 +21,7 @@ var content_data = {
   "partners": [
     {
       "name": "GGDROP",
+      "image": "https://www.solverde.pt/library/new_layout_assets/Logo.svg?v=1",
       "color": "#0CC9FA",
       "url": "https://ggdrop.com/",
       "bullets": [
@@ -151,7 +152,17 @@ function renderPartners(partners) {
     topbar.style.backgroundColor = p.color;
     card.appendChild(topbar);
 
-    const nameLink = el('a', { class: 'partner-name-link', href: p.url, target: '_blank', rel: 'noopener noreferrer' }, p.name);
+  const nameLink = el('a', { class: 'partner-name-link', href: p.url, target: '_blank', rel: 'noopener noreferrer' });
+    if (p.image) {
+      const img = el('img', { src: p.image, alt: p.name, class: 'partner-logo-img' });
+      img.addEventListener('error', () => {
+        img.remove();
+        nameLink.textContent = p.name;
+      });
+      nameLink.appendChild(img);
+    } else {
+      nameLink.textContent = p.name;
+    }
     card.appendChild(nameLink);
 
     const actions = el('div', { class: 'partner-actions' });
@@ -163,22 +174,14 @@ function renderPartners(partners) {
     actions.appendChild(visitBtn);
     card.appendChild(actions);
 
-    const detailsId = `partner-details-${i}`;
-    const details = el('div', { class: 'partner-details', id: detailsId });
-    p.bullets.forEach(bullet => {
-      const row = el('div', { class: 'partner-bullet' });
-      const dot = el('div', { class: 'bullet-dot' });
-      dot.style.backgroundColor = p.color;
-      row.appendChild(dot);
-      row.appendChild(el('span', {}, bullet));
-      details.appendChild(row);
-    });
-    card.appendChild(details);
+const details = el('div', { class: 'partner-details' });
 
-    infoBtn.addEventListener('click', () => {
-      details.classList.toggle('open');
-      infoBtn.classList.toggle('open');
-    });
+   const actions = el('div', { class: 'partner-actions' });
+    const visitBtn = el('a', { class: 'partner-visit-btn', href: p.url, target: '_blank', rel: 'noopener noreferrer' }, 'Visitar');
+    visitBtn.style.backgroundColor = p.color;
+    visitBtn.style.boxShadow = 0 4px 20px -4px ${p.color}66;
+    actions.appendChild(visitBtn);
+    card.appendChild(actions);
 
     if (p.rating) {
       const rating = el('div', { class: 'partner-rating' }, `<span>${p.rating}</span>`);
