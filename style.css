@@ -159,6 +159,32 @@ body {
   text-align: center;
 }
 
+.partner-details {
+  display: block !important;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(63,63,70,0.5);
+  opacity: 1 !important;
+  visibility: visible !important;
+  height: auto !important;
+}
+
+.partner-bullet {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  font-size: 0.85rem;
+  color: #a1a1aa;
+}
+
+.partner-bullet .bullet-dot {
+  margin-top: 0.4rem;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
 .partner-actions {
   display: flex;
   gap: 0.75rem;
@@ -184,28 +210,6 @@ body {
 }
 
 .partner-visit-btn:hover { transform: scale(1.02); }
-
-.partner-details {
-  padding-top: 1rem;
-  border-top: 1px solid rgba(63,63,70,0.5);
-}
-
-.partner-bullet {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
-  padding: 0.5rem 0;
-  font-size: 0.85rem;
-  color: #a1a1aa;
-}
-
-.partner-bullet .bullet-dot {
-  margin-top: 0.4rem;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
 
 .partner-rating {
   display: flex;
