@@ -191,30 +191,14 @@ const details = el('div', { class: 'partner-details' });
   });
 }
 
-function renderFooter(footer, siteName) {
-  document.getElementById('footer-badge').textContent = footer.badge;
-  document.getElementById('footer-text').textContent = footer.text;
-  document.getElementById('footer-sitename').textContent = footer.siteName;
-  document.getElementById('footer-version').textContent = footer.version;
-
-  const helpLinks = document.getElementById('help-links');
-  footer.helpLinks.forEach(link => {
-    const a = el('a', { class: 'help-link', href: link.url, target: '_blank', rel: 'noopener noreferrer' });
-    a.innerHTML = `
-      <div class="help-link-inner">
-        <div class="help-icon">${ICONS[link.icon] || ''}</div>
-        <div>
-          <span class="help-title">${link.title}</span>
-          <span class="help-subtitle">${link.subtitle}</span>
-        </div>
-      </div>
-    `;
-    helpLinks.appendChild(a);
-  });
-
-  const disclaimer = document.getElementById('footer-disclaimer');
-  const site = footer.siteName.toUpperCase();
-  disclaimer.innerHTML = `<b>${site}</b> ${footer.disclaimer} <b>${site}</b> ${footer.updatedDate}.`;
+"footer": {
+  "badge": "Jogo Responsável",
+  "text": "O jogo deve ser encarado como uma atividade de lazer. Se sentir necessidade de apoio, por favor utilize os recursos oficiais de ajuda listados abaixo.",
+  "disclaimer": "O site não se responsabiliza por informações incorretas sobre bônus, ofertas ou promoções apresentadas no site. Recomenda-se verificar todos os termos e condições nas páginas oficiais dos anunciantes.",
+  "siteName": "jogasimples.pt",
+  "version": "1.0",
+  "updatedDate": "2026-08-19",
+  "helpLinks": []
 }
 
 async function init() {
