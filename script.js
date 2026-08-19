@@ -21,7 +21,6 @@ var content_data = {
   "partners": [
     {
       "name": "GGDROP",
-      "image": "",
       "color": "#0CC9FA",
       "url": "https://ggdrop.com/",
       "bullets": [
