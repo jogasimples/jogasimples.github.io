@@ -9,7 +9,7 @@ var content_data = {
     "avatarText": "JOGA",
     "avatarImage": "avatar2.png",
     "avatarLink": "https://www.instagram.com/jogasimplespt",
-    "disclaimer": "Treinador de futebol Nível II (UEFA B) com 10 anos de treino e durante 20 anos como jogador de futebol. Atualmente parceiro da Twitch como criador de conteúdos relacionados com fu[...]"
+    "disclaimer": "Treinador de futebol Nível II (UEFA B) com 10 anos de treino e durante 20 anos como jogador de futebol. Atualmente parceiro da Twitch como criador de conteúdos relacionados com futebol."
   },
   "socials": [
     { "name": "YouTube",   "icon": "youtube",   "url": "https://www.youtube.com/jogasimples", "color": "#FF0000" },
@@ -81,7 +81,7 @@ var content_data = {
   "footer": {
     "badge": "Jogo Responsável",
     "text": "O jogo deve ser encarado como uma atividade de lazer. Se sentir necessidade de apoio, por favor utilize os recursos oficiais de ajuda listados abaixo.",
-    "disclaimer": "O site não se responsabiliza por informações incorretas sobre bônus, ofertas ou promoções apresentadas no site. Recomenda-se verificar todos os termos e condições nas p[...]",
+    "disclaimer": "O site não se responsabiliza por informações incorretas sobre bônus, ofertas ou promoções apresentadas no site. Recomenda-se verificar todos os termos e condições nas páginas oficiais.",
     "siteName": "jogasimples.pt",
     "version": "1.0",
     "updatedDate": "2026-08-19",
